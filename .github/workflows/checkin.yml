@@ -70,7 +70,7 @@ jobs:
         EMAIL_TO: ${{ secrets.EMAIL_TO }}
         PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
         SERVERPUSHKEY: ${{ secrets.SERVERPUSHKEY }}
-        FEISHU_WEBHOOK: ${{ secrets.https://www.feishu.cn/flow/api/trigger-webhook/757af77c6a4d1f5246211c78c1f4617f }}
+        FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
         WEIXIN_WEBHOOK: ${{ secrets.WEIXIN_WEBHOOK }}
       run: |
         python checkin.py
